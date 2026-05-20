@@ -9,9 +9,12 @@ function ProfileCard() {
       </div>
       <div className={styles.profileText}>
         <h3>Linus Torvalds</h3>
-        <p>Creator of Linux and Git</p>
-        <p> Portland, OR</p>
-        <p> Joined 2011 · 5 years on GitHub</p>
+        <p className={styles.profileField}>Creator of Linux and Git</p>
+        <p className={styles.profileLocationJoin}> Portland, OR</p>
+        <p className={styles.profileLocationJoin}>
+          {" "}
+          Joined 2011 · 5 years on GitHub
+        </p>
       </div>
     </div>
   );

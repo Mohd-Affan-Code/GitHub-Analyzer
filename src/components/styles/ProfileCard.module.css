@@ -14,13 +14,26 @@
   width: 80px;
   height: 80px;
   border-radius: 100%;
-  background-color: lightblue;
+  background-color: #b5d4f4;
 }
 
 .profileImg {
   font-size: 2rem;
+  color: #0c447c;
+  font-weight: 600;
 }
 
 .profileText {
   text-align: start;
+}
+
+.profileField {
+  margin-top: 2px;
+  color: rgba(194, 192, 182, 1);
+}
+
+.profileLocationJoin {
+  color: rgba(156, 154, 146, 1);
+  font-size: 13px;
+  margin-top: 2px;
 }

@@ -1,6 +1,7 @@
 import SearchBar from "./components/SearchBar";
 import styles from "./App.module.css";
 import ProfileCard from "./components/ProfileCard";
+import ProfileTabs from "./components/ProfileTabs";
 
 function App() {
   return (
@@ -12,8 +13,14 @@ function App() {
       <div>
         <SearchBar />
       </div>
-      <div>
+      <div className={styles.profileCard}>
         <ProfileCard />
+      </div>
+      <div className={styles.profileTabs}>
+        <ProfileTabs tabName="Followers" tabData="236k" />
+        <ProfileTabs tabName="Following" tabData="0" />
+        <ProfileTabs tabName="Repos" tabData="12" />
+        <ProfileTabs tabName="Total Stars" tabData="87k" />
       </div>
     </div>
   );

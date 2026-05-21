@@ -1,10 +1,10 @@
 import React from "react";
-
-function ProfileTabs() {
+import styles from "./styles/ProfileTabs.module.css";
+function ProfileTabs({ tabName, tabData }) {
   return (
-    <div>
-      <p>Followers</p>
-      <p>236k</p>
+    <div className={styles.profileTab}>
+      <p className={styles.label}>{tabName}</p>
+      <p className={styles.value}>{tabData}</p>
     </div>
   );
 }

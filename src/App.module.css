@@ -5,3 +5,14 @@
 .subHeading {
   color: gray;
 }
+
+.profileCard {
+  margin-bottom: 1rem;
+}
+
+.profileTabs {
+  display: grid;
+  gap: 10px;
+  /* background-color: red; */
+  grid-template-columns: repeat(4, 1fr);
+}
